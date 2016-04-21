@@ -4,6 +4,13 @@ Codecov C/C++ Example
 | [https://codecov.io][1] | [@codecov][2] | [hello@codecov.io][3] |
 | ----------------------- | ------------- | --------------------- |
 
+
+[![Build Status](https://travis-ci.org/LuxoftAKutsan/example-c.svg?branch=master)](https://travis-ci.org/LuxoftAKutsan/example-c)
+
+ [![codecov.io](https://codecov.io/github/LuxoftAKutsan/example-c/coverage.svg?branch=master)](https://codecov.io/github/LuxoftAKutsan/example-c?branch=master)
+ 
+ 
+
 This repository serves as an **example** on how to use [Codecov Global][4] for C/C++.
 
 ## Usage
