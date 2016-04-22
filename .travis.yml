@@ -3,6 +3,7 @@ sudo: false # only for faster builds
 script:
   - uname -a
   - echo $USER
+  - ssh $USER@localhost
   - clang -coverage -O0 hello.c -o hello
   - ./hello
   - gcov hello.c
