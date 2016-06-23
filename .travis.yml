@@ -2,7 +2,7 @@ language: c
 sudo: false # only for faster builds
 script:
   - uname -a
-  - clang -coverage -O0 hello.c -o hello
+  - clang++ -coverage -O0 hello.c -o hello
   - ./hello
   - gcov hello.c
 
